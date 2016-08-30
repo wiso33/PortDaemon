@@ -1,0 +1,6 @@
+url = http://127.0.0.1:8080/doc/ifeng.html
+period_in_sec = 10
+error_num = 3
+error_period_in_sec = 10
+tomcat_path = /usr/tomcat/
+logfile = log.txt

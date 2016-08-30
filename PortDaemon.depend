@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1472118646 source:/home/yn/project/PortDaemon/src/CIniFile.cpp
+	"CIniFile.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<unistd.h>
+
+1472106774 /home/yn/project/PortDaemon/include/CIniFile.h
+
+1472119686 source:/home/yn/project/PortDaemon/src/HttpClient.cpp
+	"HttpClient.h"
+	<stdio.h>
+	<netinet/in.h>
+	<string.h>
+	<arpa/inet.h>
+	<errno.h>
+	<stdlib.h>
+	<unistd.h>
+	"UrlForm.h"
+	"logfile.h"
+
+1472008795 /home/yn/project/PortDaemon/include/HttpClient.h
+	"HttpForm.h"
+
+1472119051 /home/yn/project/PortDaemon/include/UrlForm.h
+
+1471491217 /home/yn/project/PortDaemon/include/logfile.h
+
+1471943307 source:/home/yn/project/PortDaemon/src/logfile.cpp
+	"logfile.h"
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<time.h>
+	"main.h"
+
+1472119819 source:/home/yn/project/PortDaemon/src/UrlForm.cpp
+	"UrlForm.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"logfile.h"
+
+1471491248 source:/home/yn/project/PortDaemon/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"main.h"
+	"HttpClient.h"
+	"CIniFile.h"
+	"logfile.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	"logfile.h"
+
+1471935896 source:/home/yn/project/PortDaemon/src/HttpForm.cpp
+	"HttpForm.h"
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"logfile.h"
+
+1471934860 /home/yn/project/PortDaemon/include/HttpForm.h
+
+1472097139 /home/yn/project/PortDaemon/include/main.h
+
+1471487713 /home/yn/project/PortDaemon/main.h
+
+1472119270 source:/home/yn/project/PortDaemon/src/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"main.h"
+	"HttpClient.h"
+	"CIniFile.h"
+	"logfile.h"
+	"UrlForm.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	"logfile.h"
+
